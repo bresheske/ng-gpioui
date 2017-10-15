@@ -16,3 +16,9 @@ ng build --prod
 ```
 node web.js
 ```
+
+## Installing onto a PI
+Edit /etc/rc.local and add line:
+```
+sudo node /home/pi/ng-gpioui/dist/web.js &
+```
